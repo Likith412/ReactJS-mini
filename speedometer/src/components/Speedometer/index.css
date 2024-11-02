@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.speedometer-heading {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 42px;
+  text-align: center;
+}
+
+.speedometer-img {
+  width: 100%;
+}
+
+.speedometer-message {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 34px;
+  text-align: center;
+}
+
+.speedometer-limit-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 18px;
+  text-align: center;
+}
+
+.speedometer-btns-container {
+  text-align: center;
+}
+
+.speedometer-btn {
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 110px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+}
+
+.apply-brake-btn {
+  background-color: transparent;
+  color: #cbd5e1;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #94a3b8;
+}
