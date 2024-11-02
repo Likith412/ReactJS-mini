@@ -1,0 +1,51 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+.technology-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .technology-card {
+    width: 40%;
+  }
+}
+
+.technology-card-title {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 24px;
+  color: #171f46;
+}
+
+.technology-card-description {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  color: #64748b;
+}
+.technology-card-img {
+  width: 60px;
+  align-self: flex-end;
+}
