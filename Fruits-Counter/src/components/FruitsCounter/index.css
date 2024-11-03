@@ -1,0 +1,84 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  width: 95%;
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+
+.message {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 22px;
+  text-align: center;
+}
+
+.count {
+  color: #ffd569;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.fruit {
+  text-align: center;
+  margin: 10px;
+  min-width: 250px;
+  width: 40%;
+}
+
+.fruit-img {
+  width: 100%;
+}
+
+.fruit-eat-btn {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #007bff;
+  border-style: none;
+  border-radius: 5px;
+  width: 110px;
+  height: 30px;
+  margin: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .container {
+    width: 80%;
+  }
+
+  .message {
+    font-size: 42px;
+  }
+
+  .fruit-eat-btn {
+    height: 40;
+    font-size: 16px;
+  }
+}
