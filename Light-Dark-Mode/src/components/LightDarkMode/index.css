@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 380px;
+  text-align: center;
+  padding: 15px;
+}
+
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .card-heading {
+    font-size: 32px;
+  }
+}
+
+.card-btn {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .card-btn {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
