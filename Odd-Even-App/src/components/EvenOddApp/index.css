@@ -1,0 +1,93 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    align-items: center;
+  }
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-style: none;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 34px;
+  color: #0f172a;
+  font-weight: 900;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 44px;
+  }
+}
+
+.sub-heading {
+  font-family: 'roboto';
+  font-size: 22px;
+  color: #334155;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .sub-heading {
+    font-size: 32px;
+  }
+}
+
+.increment-btn {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 400;
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .increment-btn {
+    font-size: 18px;
+  }
+}
+
+.description {
+  font-family: 'roboto';
+  font-size: 12px;
+  color: #334155;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .description {
+    font-size: 14px;
+  }
+}
