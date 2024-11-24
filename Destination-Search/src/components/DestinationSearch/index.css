@@ -1,0 +1,84 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.container {
+  width: 90%;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 40px;
+  color: #0f172a;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    text-align: left;
+    font-size: 50px;
+  }
+}
+
+.search-container {
+  background-color: #f1f5f9;
+  border-style: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  width: 80%;
+  max-width: 300px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .search-container {
+    margin: 10px auto 10px 0px;
+  }
+}
+
+.search-input {
+  font-family: 'Open Sans';
+  background-color: transparent;
+  border: none;
+  width: 90%;
+  padding: 10px;
+  outline: none;
+}
+
+.search-icon {
+  align-self: center;
+  width: 10%;
+}
+
+.destinations-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media (min-width: 768px) {
+  .destinations-list-container {
+    justify-content: flex-start;
+  }
+}
