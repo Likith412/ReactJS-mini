@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.todos-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.todos-text {
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+}
+
+.todos-delete-btn {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #ff0b37;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ff0b37;
+  font-weight: 500;
+  width: 70px;
+  height: 30px;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .todos-text {
+    font-size: 18px;
+  }
+
+  .todos-delete-btn {
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+  }
+}
