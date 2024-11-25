@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.search-suggestion-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-suggestion-item-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  color: #475569;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.arrow-icon {
+  width: 25px;
+}
+
+@media (min-width: 768px) {
+  .search-suggestion-item-text {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .arrow-icon {
+    width: 30px;
+  }
+}
