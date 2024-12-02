@@ -1,0 +1,117 @@
+/* Write your CSS code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-height: 250px;
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 15px;
+  width: 85%;
+  max-width: 450px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feedback-question {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .feedback-question {
+    font-size: 26px;
+  }
+}
+
+.feedback-options-container {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-option {
+  text-align: center;
+  margin: 10px 20px 10px 20px;
+}
+
+.feedback-option-img {
+  width: 45px;
+}
+
+.feedback-option-name {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .feedback-option {
+    text-align: center;
+    margin: 10px 30px 10px 30px;
+  }
+  .feedback-option-img {
+    width: 60px;
+  }
+
+  .feedback-option-name {
+    font-size: 22px;
+  }
+}
+
+.thankyou-img-container {
+  text-align: center;
+}
+
+.thankyou-img {
+  width: 60px;
+}
+
+.thankyou-greeting-heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 20px;
+  text-align: center;
+}
+
+.thankyou-greeting-para {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .thankyou-img {
+    width: 80px;
+  }
+
+  .thankyou-greeting-heading {
+    font-size: 24px;
+  }
+
+  .thankyou-greeting-para {
+    font-size: 20px;
+  }
+}
