@@ -1,0 +1,28 @@
+/* Write your code here. */
+.thumbnail-item {
+  margin: 0px 10px 10px 0px;
+}
+
+.thumbnail-item-btn {
+  background-color: transparent;
+  border: none;
+  opacity: 0.5;
+}
+
+.thumbnail-item-btn-img {
+  width: 55px;
+}
+
+.selected {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .thumbnail-item {
+    margin: 0px 20px 20px 0px;
+  }
+
+  .thumbnail-item-btn-img {
+    width: 80px;
+  }
+}

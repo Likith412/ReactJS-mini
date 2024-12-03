@@ -1,0 +1,56 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  width: 85%;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #1e293b;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #64748b;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 22px;
+  }
+}
+
+.thumbnail-list-container {
+  margin-top: 40px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
