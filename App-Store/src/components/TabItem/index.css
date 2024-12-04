@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.tabs-item {
+  width: 70px;
+}
+
+.tabs-item-btn {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-style: none none solid none;
+  border-color: #dfe2e5;
+  padding: 10px 10px 5px 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #7b8794;
+}
+
+.selected {
+  color: #2563eb;
+  border-color: #2563eb;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .tabs-item {
+    width: 100px;
+  }
+  .tabs-item-btn {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.apps-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 130px;
+  background-color: #ffffff;
+  margin: 0px 10px 10px 0px;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.apps-item-img {
+  width: 60px;
+}
+
+.apps-item-name {
+  text-align: center;
+  margin: 15px 0px 0px 0px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 16px;
+  color: #1e293b;
+}
+
+@media (min-width: 768px) {
+  .apps-item {
+    width: 160px;
+    height: 170px;
+  }
+
+  .apps-item-img {
+    width: 80px;
+  }
+
+  .apps-item-name {
+    font-size: 20px;
+  }
+}
