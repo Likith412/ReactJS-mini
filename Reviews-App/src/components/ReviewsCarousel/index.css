@@ -1,0 +1,99 @@
+/* Write your code here */
+.bg-container {
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-weight: 900;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.carousel {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 350px;
+}
+
+.indicator-btn {
+  background-color: transparent;
+  border: none;
+  width: 35px;
+  height: 35px;
+}
+
+.indicator-btn-img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .indicator-btn {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.carousel-content {
+  text-align: center;
+}
+
+.carousel-content-profile-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.carousel-content-profile-company {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.carousel-content-profile-review {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 400;
+  height: 75px;
+}
+
+@media (min-width: 768px) {
+  .carousel-content-profile-name {
+    font-size: 26px;
+  }
+
+  .carousel-content-profile-company {
+    font-size: 20px;
+  }
+
+  .carousel-content-profile-review {
+    font-size: 20px;
+  }
+}
