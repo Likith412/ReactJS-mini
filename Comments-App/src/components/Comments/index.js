@@ -1,5 +1,5 @@
-import {Component} from 'react'
-import {v4 as uuidv4} from 'uuid'
+import { Component } from 'react'
+import { v4 as uuidv4 } from 'uuid'
 import CommentItem from '../CommentItem'
 import './index.css'
 
@@ -22,15 +22,15 @@ class Comments extends Component {
   }
 
   onNameInputChange = event => {
-    this.setState({nameInput: event.target.value})
+    this.setState({ nameInput: event.target.value })
   }
 
   onCommentInputChange = event => {
-    this.setState({commentInput: event.target.value})
+    this.setState({ commentInput: event.target.value })
   }
 
   toggleLikeComment = id => {
-    const {commentsList} = this.state
+    const { commentsList } = this.state
     this.setState({
       commentsList: commentsList.map(eachComment => {
         if (id === eachComment.id) {
@@ -45,7 +45,7 @@ class Comments extends Component {
   }
 
   deleteComment = id => {
-    const {commentsList} = this.state
+    const { commentsList } = this.state
     this.setState({
       commentsList: commentsList.filter(eachComment => id !== eachComment.id),
     })
@@ -54,27 +54,29 @@ class Comments extends Component {
   onAddComment = event => {
     event.preventDefault()
 
-    const {nameInput, commentInput} = this.state
-    const randomIndex = Math.floor(Math.random() * 7)
+    const { nameInput, commentInput } = this.state
+    if (nameInput !== "" && commentInput !== "") {
+      const randomIndex = Math.floor(Math.random() * 7)
 
-    const newComment = {
-      id: uuidv4(),
-      profileColor: initialContainerBackgroundClassNames[randomIndex],
-      name: nameInput,
-      time: new Date(),
-      comment: commentInput,
-      isLiked: false,
+      const newComment = {
+        id: uuidv4(),
+        profileColor: initialContainerBackgroundClassNames[randomIndex],
+        name: nameInput,
+        time: new Date(),
+        comment: commentInput,
+        isLiked: false,
+      }
+
+      this.setState(prevState => ({
+        commentsList: [...prevState.commentsList, newComment],
+        nameInput: '',
+        commentInput: '',
+      }))
     }
-
-    this.setState(prevState => ({
-      commentsList: [...prevState.commentsList, newComment],
-      nameInput: '',
-      commentInput: '',
-    }))
   }
 
   render() {
-    const {commentsList, nameInput, commentInput} = this.state
+    const { commentsList, nameInput, commentInput } = this.state
 
     return (
       <div className="bg-container">
