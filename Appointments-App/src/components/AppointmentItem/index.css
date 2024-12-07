@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.appointments-item {
+  list-style-type: none;
+  border-style: solid;
+  border-color: #b5b7c4;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.appointments-item-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #171f46;
+  margin-top: 0px;
+}
+
+.appointments-item-date {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #b5b7c4;
+  margin-bottom: 0px;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.star-img {
+  width: 20px;
+}
+
+@media (min-width: 768px) {
+  .appointments-item {
+    max-width: 290px;
+    margin-right: 10px;
+  }
+  .appointments-item-title {
+    font-size: 20px;
+  }
+
+  .appointments-item-date {
+    font-size: 15px;
+  }
+
+  .star-img {
+    width: 25px;
+  }
+}
