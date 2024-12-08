@@ -1,0 +1,87 @@
+/* Write your CSS here */
+
+.money-details-container {
+  margin: 10px 0px;
+}
+
+@media (min-width: 768px) {
+  .money-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.money-details-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 110px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .money-details-item {
+    width: 31%;
+  }
+}
+
+.light-green-bg {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.light-blue-bg {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.light-violet-bg {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+.money-details-item-img {
+  width: 50px;
+  margin-left: 18px;
+}
+
+@media (min-width: 768px) {
+  .money-details-item-img {
+    width: 60px;
+  }
+}
+
+.money-details-item-right {
+  margin-left: 18px;
+}
+
+.money-details-item-right-heading {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #475569;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.money-details-item-right-money {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #475569;
+  font-size: 18px;
+  margin: 10px 0px 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .money-details-item-right-heading {
+    font-size: 16px;
+  }
+
+  .money-details-item-right-money {
+    font-size: 20px;
+  }
+}

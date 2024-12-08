@@ -1,0 +1,193 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  width: 90%;
+}
+
+.greeting-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 30px 20px;
+  border-style: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.greeting-card-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #475569;
+  text-align: center;
+}
+
+.greeting-card-description {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #475569;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .greeting-card {
+    padding: 40px 30px;
+  }
+
+  .greeting-card-heading {
+    font-size: 26px;
+    text-align: left;
+  }
+
+  .greeting-card-description {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+.bold {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .container-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.add-transaction-card {
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: #cbd5e1;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .add-transaction-card {
+    width: 40%;
+  }
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: #7e858e;
+}
+
+.input {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  width: 100%;
+  height: 35px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #cbd5e1;
+  outline: none;
+}
+
+.add-btn {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  width: 70px;
+  height: 35px;
+  background-color: #0b69ff;
+  border-style: none;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .card-heading {
+    font-size: 20px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+
+  .input {
+    font-size: 14px;
+    height: 40px;
+  }
+
+  .add-btn {
+    font-size: 16px;
+    width: 75px;
+    height: 40px;
+  }
+}
+
+.transaction-history-card {
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: #cbd5e1;
+  padding: 10px 20px;
+}
+
+@media (min-width: 768px) {
+  .transaction-history-card {
+    width: 55%;
+  }
+}
+
+.transactions-list {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd5e1;
+  padding: 0px 8px;
+}
+
+.header-text {
+  margin-right: 5px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e293b;
+  width: 33%;
+}
+
+@media (min-width: 768px) {
+  .header-text {
+    font-size: 16px;
+  }
+}
