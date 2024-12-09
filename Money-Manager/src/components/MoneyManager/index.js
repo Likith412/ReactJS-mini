@@ -169,9 +169,11 @@ class MoneyManager extends Component {
             <div className="transaction-history-card">
               <h1 className="card-heading">History</h1>
               <div className="header">
-                <p className="header-text">Title</p>
-                <p className="header-text">Amount</p>
-                <p className="header-text">Type</p>
+                <div className="header-container">
+                  <p className="header-text">Title</p>
+                  <p className="header-text">Amount</p>
+                  <p className="header-text">Type</p>
+                </div>
               </div>
               <ul className="transactions-list">
                 {transactionsList.map(eachTransaction => (

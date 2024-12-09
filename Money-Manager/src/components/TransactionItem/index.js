@@ -11,12 +11,14 @@ const TransactionItem = props => {
 
   return (
     <li className="transactions-list-item">
-      <p className="transactions-list-item-text width-33">{title}</p>
-      <p className="transactions-list-item-text width-33">Rs {amount}</p>
       <div className="flex-container">
-        <p className="transactions-list-item-text">
-          {type === 'INCOME' ? 'Income' : 'Expenses'}
-        </p>
+        <div className="transactions-list-item-left">
+          <p className="transactions-list-item-text">{title}</p>
+          <p className="transactions-list-item-text">Rs {amount}</p>
+          <p className="transactions-list-item-text">
+            {type === 'INCOME' ? 'Income' : 'Expenses'}
+          </p>
+        </div>
         <button
           className="delete-btn"
           type="button"
