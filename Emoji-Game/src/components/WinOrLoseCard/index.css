@@ -1,0 +1,108 @@
+/* Write your code here. */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.win-or-lose-card {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #ffffff33;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff30;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 650px;
+}
+
+.win-or-lose-card-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .win-or-lose-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .win-or-lose-card-img-container {
+    order: 1;
+    justify-content: flex-end;
+  }
+}
+
+.win-or-lose-card-img {
+  width: 80%;
+}
+
+.win-or-lose-card-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 900;
+  text-align: center;
+}
+
+.win-or-lose-card-score-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 900;
+  margin: 0px;
+  text-align: center;
+}
+
+.win-or-lose-card-score-text {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #6a59ff;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .win-or-lose-card-text {
+    font-size: 50px;
+  }
+
+  .win-or-lose-card-score-heading {
+    font-size: 25px;
+  }
+  .win-or-lose-card-score-text {
+    font-size: 38px;
+  }
+}
+
+.play-again-btn-container {
+  text-align: center;
+}
+
+.play-again-btn {
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #3d3d3d;
+  font-weight: 500;
+  width: 120px;
+  height: 35px;
+  background-color: #ffce27;
+  border-style: none;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .play-again-btn {
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
