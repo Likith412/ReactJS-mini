@@ -1,0 +1,71 @@
+/* Write your code here. */
+.faqs-list-item {
+  list-style-type: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  width: 90%;
+  padding: 20px 15px;
+  margin-top: 20px;
+}
+
+.faq-question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #52606d;
+  margin: 0px;
+}
+
+@media (min-width: 992px) {
+  .faq-question {
+    font-size: 20px;
+  }
+}
+
+.faq-show-hide-btn {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+.faq-show-hide-btn-img {
+  width: 20px;
+}
+
+@media (min-width: 992px) {
+  .faq-show-hide-btn-img {
+    width: 25px;
+  }
+}
+
+.faq-answer-container {
+  margin-top: 20px;
+}
+
+.seperator {
+  border-top: 1px solid #e4e7eb;
+  border-bottom: none;
+}
+
+.faq-answer {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #9aa5b1;
+  margin: 15px 0px 0px 0px;
+}
+
+@media (min-width: 992px) {
+  .faq-answer {
+    font-size: 16px;
+  }
+}
