@@ -12,6 +12,10 @@ class DigitalTimer extends Component {
     }
   }
 
+  componentWillUnmount() {
+    clearInterval(this.timerIntervalId)
+  }
+
   onToggleTimerStatus = () => {
     const {isTimerRunning} = this.state
 
