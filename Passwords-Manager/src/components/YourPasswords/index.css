@@ -1,0 +1,182 @@
+.your-passwords-container {
+  background-color: #5763a5;
+  border-style: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  min-height: 550px;
+}
+
+@media (min-width: 768px) {
+  .your-passwords-container {
+    padding: 30px;
+  }
+}
+
+.your-passwords-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin: 0px;
+}
+
+.passwords-count {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #f8fafc;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  margin: 0px 0px 0px 5px;
+  padding: 1px 10px;
+}
+
+@media (min-width: 768px) {
+  .header-text {
+    font-size: 18px;
+  }
+
+  .passwords-count {
+    font-size: 16px;
+  }
+}
+
+.search-input-container {
+  background-color: #f8fafc;
+  border-style: none;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  width: 50%;
+  max-width: 300px;
+  margin-left: 10px;
+}
+
+.search-input-logo-container {
+  width: 20%;
+  min-width: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #c3caea;
+}
+
+.search-input-logo {
+  width: 18px;
+}
+
+.search-input {
+  background-color: transparent;
+  width: 80%;
+  border-style: none;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: #64748b;
+}
+
+@media (min-width: 768px) {
+  .search-input-container {
+    height: 35px;
+  }
+
+  .search-input {
+    font-size: 18px;
+  }
+
+  .search-input-logo {
+    width: 20px;
+  }
+}
+
+.seperator {
+  border: none;
+  border-top: 2px solid #7683cb;
+  margin-top: 20px;
+}
+
+.your-passwords-body {
+  margin-top: 20px;
+}
+
+.show-passwords-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.show-passwords-checkbox {
+  border: none;
+  width: 15px;
+  height: 15px;
+}
+
+.show-passwords-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #f8fafc;
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .show-passwords-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .show-passwords-text {
+    font-size: 16px;
+  }
+}
+
+.passwords-list-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.no-passwords-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.no-passwords-img {
+  width: 100%;
+  max-width: 350px;
+}
+
+.no-passwords-text {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .no-passwords-text {
+    font-size: 24px;
+  }
+}
