@@ -1,0 +1,51 @@
+/* Write your CSS code here */
+.blogs-list-item {
+  list-style-type: none;
+}
+
+.list-item-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item-title {
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: #12022f;
+  font-size: 16px;
+}
+
+.list-item-published-date {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #9aa5b1;
+  font-size: 14px;
+}
+
+.list-item-description {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #9aa5b1;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .list-item-title {
+    font-size: 18px;
+  }
+
+  .list-item-published-date {
+    font-size: 16px;
+  }
+
+  .list-item-description {
+    font-size: 16px;
+  }
+}
+
+.seperator {
+  border-style: none;
+  border-bottom: 1px solid #9aa5b1;
+}

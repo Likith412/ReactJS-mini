@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+
+.user-info-container {
+  text-align: center;
+}
+
+.user-img {
+  width: 100px;
+}
+
+.user-name {
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: #12022f;
+  font-size: 16px;
+}
+
+.user-role {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #616e7c;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .user-name {
+    font-size: 18px;
+  }
+
+  .user-role {
+    font-size: 16px;
+  }
+}
