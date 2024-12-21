@@ -1,0 +1,91 @@
+/* Write your CSS code here */
+.blog-list-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.blog-list-item-link {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .blog-list-item-link {
+    flex-direction: row;
+  }
+}
+
+.list-item-img {
+  width: 100%;
+  border-style: none;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .list-item-img {
+    margin-right: 20px;
+    width: 250px;
+    height: 150px;
+  }
+}
+
+.list-item-topic {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.list-item-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .list-item-topic {
+    font-size: 16px;
+  }
+
+  .list-item-title {
+    font-size: 18px;
+  }
+}
+
+.list-item-author-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-item-author-avatar {
+  width: 25px;
+  height: 25px;
+  border-style: none;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.list-item-author-name {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #8e8e8e;
+  font-size: 14px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .list-item-author-avatar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .list-item-author-name {
+    font-size: 16px;
+  }
+}
