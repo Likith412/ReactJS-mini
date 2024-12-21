@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+
+.crypto-currencies-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 45px;
+}
+
+@media (min-width: 768px) {
+  .crypto-currencies-list-item {
+    height: 50px;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-item-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.list-item-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .list-item-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+
+  .list-item-text {
+    font-size: 14px;
+  }
+}
