@@ -42,9 +42,9 @@ class StopWatch extends Component {
     const timeInSeconds = timeElapsedInSeconds % 60
 
     const stringifiedMinutes =
-      timeInMinutes < 9 ? `0${timeInMinutes}` : {timeInMinutes}
+      timeInMinutes < 10 ? `0${timeInMinutes}` : `${timeInMinutes}`
     const stringifiedSeconds =
-      timeInSeconds < 9 ? `0${timeInSeconds}` : {timeInSeconds}
+      timeInSeconds < 10 ? `0${timeInSeconds}` : `${timeInSeconds}`
 
     return (
       <div className="bg-container">
