@@ -4,6 +4,7 @@ import './index.css'
 
 class StopWatch extends Component {
   state = {
+    isRunning: false,
     timeElapsedInSeconds: 0,
   }
 
@@ -18,10 +19,12 @@ class StopWatch extends Component {
   }
 
   startTimer = () => {
+    this.setState({isRunning: true})
     this.timerId = setInterval(this.incrementTimeElapsedInSeconds, 1000)
   }
 
   stopTimer = () => {
+    this.setState({isRunning: false})
     clearInterval(this.timerId)
   }
 
@@ -29,11 +32,12 @@ class StopWatch extends Component {
     clearInterval(this.timerId)
     this.setState({
       timeElapsedInSeconds: 0,
+      isRunning: false,
     })
   }
 
   render() {
-    const {timeElapsedInSeconds} = this.state
+    const {timeElapsedInSeconds, isRunning} = this.state
     const timeInMinutes = Math.floor(timeElapsedInSeconds / 60)
     const timeInSeconds = timeElapsedInSeconds % 60
 
@@ -63,6 +67,7 @@ class StopWatch extends Component {
                 className="timer-card-btn start-btn"
                 type="button"
                 onClick={this.startTimer}
+                disabled={isRunning}
               >
                 Start
               </button>
