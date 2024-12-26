@@ -1,0 +1,160 @@
+/* Write your CSS code here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: #ea580c;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.registration-card {
+  width: 100%;
+  max-width: 450px;
+}
+
+@media (min-width: 768px) {
+  .registration-card {
+    padding: 50px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-style: none;
+    border-radius: 8px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .input-container {
+    margin-bottom: 20px;
+  }
+}
+
+.input-label {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+  font-size: 14px;
+}
+
+.input-field {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #9aa5b1;
+  font-size: 14px;
+  outline: none;
+}
+
+.error {
+  background-color: #fef2f4;
+  border-color: #ff0b37;
+}
+
+@media (min-width: 768px) {
+  .input-label {
+    font-size: 16px;
+  }
+
+  .input-field {
+    font-size: 16px;
+    height: 40px;
+  }
+}
+
+.error-message {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ff0b37;
+  font-size: 12px;
+  margin: 8px 0px 0px 0px;
+}
+
+.button {
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+  height: 35px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .button {
+    align-self: center;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+  }
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.success-image-container {
+  text-align: center;
+}
+
+.success-image {
+  width: 60px;
+}
+
+.success-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .success-image {
+    width: 90px;
+  }
+
+  .success-text {
+    font-size: 16px;
+  }
+}
