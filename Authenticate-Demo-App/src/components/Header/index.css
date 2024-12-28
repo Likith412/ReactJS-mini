@@ -1,0 +1,15 @@
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-menu-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.nav-link {
+  font-family: 'Roboto';
+}
