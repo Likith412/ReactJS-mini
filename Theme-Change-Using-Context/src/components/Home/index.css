@@ -1,0 +1,30 @@
+.home-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-img {
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  .home-img {
+    width: 150px;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+  }
+}

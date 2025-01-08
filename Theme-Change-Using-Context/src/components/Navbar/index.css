@@ -1,0 +1,84 @@
+.navbar {
+  height: 10vh;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-light-theme-bg {
+  background-color: #ffffff;
+  border-bottom: 2px solid #dcdcdc;
+}
+
+.nav-dark-theme-bg {
+  background-color: #333333;
+}
+
+.nav-logo {
+  width: 40px;
+}
+
+@media (min-width: 768px) {
+  .nav-logo {
+    width: 50px;
+  }
+}
+
+.nav-menu {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu-item {
+  list-style-type: none;
+  margin: 0px 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .nav-menu-item {
+    margin-right: 15px;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
+.nav-light-theme-text {
+  color: #171f46;
+}
+
+.nav-dark-theme-text {
+  color: #ffffff;
+}
+
+.nav-theme-toggler-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-theme-toggler-btn-img {
+  width: 30px;
+}
+
+@media (min-width: 768px) {
+  .nav-theme-toggler-btn-img {
+    width: 35px;
+  }
+}
