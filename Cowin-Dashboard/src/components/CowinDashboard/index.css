@@ -1,0 +1,86 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161625;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cowin-dashboard-container {
+  width: 80%;
+}
+
+.cowin-dashboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.website-logo {
+  width: 50px;
+  margin-right: 12px;
+}
+
+.website-name {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 24px;
+  color: #2cc6c6;
+  margin: 0px;
+}
+
+.cowin-dashboard-body {
+  margin-top: 30px;
+}
+
+.cowin-dashboard-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #cbd5e1;
+  font-size: 26px;
+  margin: 0px 0px 15px 0px;
+}
+
+.cowin-dashboard-chart-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.chart-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #94a3b8;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.failure-view-container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-img {
+  width: 400px;
+}
+
+.failure-view-heading {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: 900;
+  color: #ffffff;
+}
