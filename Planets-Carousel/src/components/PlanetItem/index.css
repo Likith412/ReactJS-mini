@@ -1,0 +1,51 @@
+.planet-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.planet-item-img {
+  width: 250px;
+  height: 160px;
+}
+
+@media (min-width: 576px) {
+  .planet-item-img {
+    width: 320px;
+    height: 210px;
+  }
+}
+
+@media (min-width: 768px) {
+  .planet-item-img {
+    width: 460px;
+    height: 310px;
+  }
+}
+
+.planet-item-name {
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: #f8fafc;
+  font-size: 24px;
+  text-align: center;
+}
+
+.planet-item-description {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #f1f5f9;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .planet-item-name {
+    font-size: 28px;
+  }
+
+  .planet-item-description {
+    font-size: 18px;
+  }
+}
