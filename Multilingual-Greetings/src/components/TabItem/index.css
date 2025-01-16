@@ -1,0 +1,22 @@
+.tabs-list-item {
+  margin: 0px 25px;
+  list-style-type: none;
+}
+
+.tabs-list-item-btn {
+  background-color: transparent;
+  border: 1px solid #db1c48;
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #db1c48;
+  cursor: pointer;
+}
+
+.selected {
+  color: #ffffff;
+  background-color: #db1c48;
+}
