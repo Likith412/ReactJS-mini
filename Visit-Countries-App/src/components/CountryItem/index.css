@@ -1,0 +1,35 @@
+.countries-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #334155;
+}
+
+.countries-list-item-name {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.visit-btn {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #3b82f6;
+  width: 60px;
+  height: 30px;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.visited-text {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  font-weight: 400;
+  font-size: 16px;
+}

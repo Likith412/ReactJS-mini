@@ -1,0 +1,20 @@
+.tags-list-item {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.tags-list-item-btn {
+  padding: 5px 12px;
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #f3aa4e;
+}
