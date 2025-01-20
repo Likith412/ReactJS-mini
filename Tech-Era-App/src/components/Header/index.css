@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #f1f5f9;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  width: 90%;
+}
+
+.nav-logo {
+  width: 150px;
+}
