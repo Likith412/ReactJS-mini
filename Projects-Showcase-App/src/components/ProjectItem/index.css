@@ -1,0 +1,22 @@
+.list-item {
+  list-style-type: none;
+  margin: 0 25px 25px 0;
+  width: 23%;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 #e2e8f0;
+}
+
+.list-item-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.list-item-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+  font-size: 16px;
+  margin-left: 20px;
+}
